@@ -1,0 +1,502 @@
+/*==========================================================================
+============================== HEADER ======================================
+==========================================================================*/
+
+
+/*--------------------- Header CSS --------------------------------*/
+
+header {
+    background-image: url(Image/fdb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: none;
+    width: 100vw;
+    height: 740px;
+}
+
+
+/*---------------------- Menu CSS -------------------------*/
+
+#menu {
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.671);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 10;
+}
+
+#lienmenu {
+    background-color: none;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#lienmenu a {
+    text-decoration: none;
+    color: green;
+    font-weight: 55px;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Ma Super Fonte";
+    src: url(font/WildFlowerBold.ttf);
+}
+
+#logomenu h3 {
+    font-family: "Ma Super Fonte";
+    color: green;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+/*---------------------- Praterea CSS -------------------------*/
+
+#contenant {
+    width: 100vw;
+    height: 630px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*--------- div praterea-------*/
+
+#praterea {
+    width: 1000px;
+    height: 200px;
+    background-color: rgba(9, 105, 9, 0.473);
+    align-self: center;
+    text-align: center;
+    border-style: dotted;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*------ Titre h1 Paterea---------*/
+
+h1 {
+    align-self: center;
+    font-family: 'Dancing script';
+    font-weight: bolder;
+    font-size: 100px;
+    color: white;
+}
+
+
+/*------------------- About US CSS SECTION ---------------------*/
+
+#aboutus {
+    background-color: none;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titre {
+    background-color: none;
+    width: 100vw;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenantau {
+    background-color: none;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenuaboutus {
+    background-color: none;
+    width: 1500px;
+    height: 300px;
+    align-self: center;
+}
+
+#titre h1 {
+    font-size: 50px;
+    font-family: 'Courgette';
+    color: green;
+    align-self: center;
+}
+
+#textaboutus {
+    width: 140px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+}
+
+.fas {
+    font-size: 40px;
+    color: rgba(0, 128, 0, 0.637);
+    position: absolute;
+    bottom: 300px;
+    right: 250px;
+}
+
+
+/*------------------------------------- Slogan Section CSS -------------------------------*/
+
+#slogan {
+    background-image: url(Image/bg3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: none;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#slogancon {
+    background-color: rgba(9, 105, 9, 0.473);
+    width: 1300px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    border-style: dotted;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    border-color: white;
+}
+
+#slogancon h1 {
+    font-size: 40px;
+    align-self: center;
+}
+
+
+/*-------------------------------------- Team Section CSS -----------------------------*/
+
+#team {
+    background-color: none;
+    width: 100vw;
+    height: 620px;
+}
+
+#titreteam {
+    background-color: none;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#titreteam h1 {
+    font-family: 'Courgette';
+    color: green;
+    font-size: 50px;
+    align-self: center;
+}
+
+#teamphoto {
+    background-color: none;
+    width: 100vw;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#teamphotobis {
+    background-color: none(84, 214, 32, 0.507);
+    width: 1300px;
+    height: 460px;
+    align-self: center;
+}
+
+.sorcery {
+    text-align: center;
+}
+
+.sorcery h3 {
+    font-family: 'Courgette';
+}
+
+.italiqe {
+    font-style: italic;
+}
+
+.edition {
+    width: 280px;
+    height: 260px;
+    border-radius: 55%;
+    border: 20px solid rgb(35, 156, 35);
+    position: relative;
+}
+
+.sorcery:hover .greenb {
+    visibility: visible;
+}
+
+.greenb {
+    width: 230px;
+    height: 210px;
+    border-radius: 55%;
+    background-color: rgba(60, 161, 60, 0.712);
+    position: absolute;
+    left: 48px;
+    top: 26px;
+    visibility: hidden;
+}
+
+.fontawe {
+    width: 120px;
+    height: 10px;
+    background-color: none;
+    position: relative;
+    left: 55px;
+    top: 85px;
+}
+
+.fab {
+    font-size: 30px;
+    color: white;
+}
+
+
+/*-------------------------------------------- Slider Section CSS -------------------------*/
+
+#slider {
+    background-image: url(Image/bg2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divrounded {
+    border-radius: 25px;
+    background: grey;
+    width: 300px;
+    height: 300px;
+}
+
+.divrounded img {
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    border-style: dotted;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+}
+
+.glide {
+    align-self: center;
+    width: 1380px;
+    height: 300px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/*
+.glide__slides {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+*/
+
+
+/*------------------------------------------------ Section Quams CSS -------------------------------------*/
+
+#quams {
+    background-color: none;
+    width: 100vw;
+    height: 1600px;
+}
+
+#titrequams {
+    width: 100vw;
+    height: 150px;
+    background-color: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titrequams h1 {
+    font-size: 60px;
+    color: green;
+}
+
+#contenuquams {
+    width: 100vw;
+    height: 1400px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quamscase {
+    background-color: none;
+    width: 1520px;
+    height: 450px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.quamsmini {
+    background-color: none;
+    width: 200px;
+    height: 450px;
+}
+
+.quamsmini1 {
+    background-color: none;
+    width: 200px;
+    height: 450px;
+}
+
+.quamsmini2 {
+    background-color: none;
+    width: 200px;
+    height: 450px;
+}
+
+.quamsquams {
+    background-color: none;
+    width: 480px;
+    height: 450px;
+}
+
+.fleur {
+    width: 480px;
+    height: 450px;
+}
+
+
+/*------------------------------------------------------- Footer Section CSS ---------------------------*/
+
+footer {
+    background-color: rgb(63, 126, 63);
+    width: 100vw;
+    height: 300px;
+}
+
+#footercss {
+    background-color: rgb(103, 148, 103);
+    width: 100vw;
+    height: 300px;
+    border-style: dotted;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact {
+    background-color: rgb(103, 148, 103);
+    width: 250px;
+    height: 100px;
+    border-style: dotted;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    border-color: white;
+    align-self: center;
+    text-align: center;
+    animation: zoomInUp linear 3s;
+    -webkit-animation: zoomInUp linear 3s;
+}
+
+@-webkit-keyframes zoomInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+        transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+        transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    }
+}
+
+@keyframes zoomInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+        transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+        transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    }
+}
+
+#contact p {
+    font-size: 50px;
+    align-self: center;
+    color: white;
+}
+
+#contact a {
+    text-decoration: none;
+}
