@@ -6,5 +6,4 @@ AOS.init({
 var rellax = new Rellax('.rellax');
 
 
-
-new Glide('.glide').mount()
+new Glide('.glide', {}).mount()
